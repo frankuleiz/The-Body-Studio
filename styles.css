@@ -150,6 +150,8 @@ nav .logo img {
 .card-front {
   background-color: #fff;
   color: black;
+  z-index: 2;
+  transform: rotateY('0deg');
 }
 
 .card-front img {
@@ -173,6 +175,7 @@ nav .logo img {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  z-index: 1;
   box-sizing: border-box;
 }
 
