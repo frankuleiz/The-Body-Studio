@@ -162,7 +162,7 @@ nav .logo img {
 
 .card-back {
   background-color: #00FF00;
-  color: black;
+  color: white;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -175,8 +175,112 @@ nav .logo img {
 
 .card-back h3 {
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .card-back {
   font-size: 1em;
+}
+
+/* SIGN UP */
+.signup-section {
+  padding: 50px 20px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.signup-section h2 {
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.signup-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border:  1px solid #ccc;
+  font-size: 1em;
+  width: 100%;
+}
+
+.form-group select {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-buttons .btn {
+  background-color: #00FF00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.form-buttons .btn:hover {
+  background-color: #00cc00;
+  transition: 0.25s;
+}
+
+.google-signup-btn,
+.google-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.google-signup-btn:hover,
+.google-login-btn:hover {
+  background-color: #cec7c7;
 }
