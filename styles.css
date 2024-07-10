@@ -17,14 +17,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.hero-section {
-  background: url("assets/images/Hero-section.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-}
-
 /* NAVBAR */
 
 nav {
@@ -61,6 +53,14 @@ nav .logo img {
 }
 
 /* HERO SECTION */
+
+.hero-section {
+  background: url("assets/images/Hero-section.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150%;
+}
 
 .hero-header {
   font-size: 2em;
@@ -151,7 +151,7 @@ nav .logo img {
   background-color: #fff;
   color: black;
   z-index: 2;
-  transform: rotateY('0deg');
+  transform: rotateY(0deg);
 }
 
 .card-front img {
@@ -169,7 +169,7 @@ nav .logo img {
 .card-back {
   background-color: #00FF00;
   color: black;
-  transform: rotateY('180deg');
+  transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
