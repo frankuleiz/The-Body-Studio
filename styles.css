@@ -197,10 +197,9 @@ nav .logo img {
 
 .signup-container {
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .signup-image img {
@@ -216,7 +215,7 @@ nav .logo img {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 100%;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 .signup-form form {
@@ -240,14 +239,20 @@ nav .logo img {
 }
 
 .form-group select {
-  appearance: none;
   background-color: #fff;
   cursor: pointer;
 }
 
+.form-group label {
+  font-size: 1em;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
 .form-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 10px;
 }
 
@@ -283,4 +288,9 @@ nav .logo img {
 .google-signup-btn:hover,
 .google-login-btn:hover {
   background-color: #cec7c7;
+}
+
+.fa fa-google {
+  color: #4285f4;
+  
 }
