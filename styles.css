@@ -86,6 +86,10 @@ nav .logo img {
     background-color: #333;
 }
 
+.pricing-section h2 {
+	color: #FFFFFF;
+}
+
 .pricing-container {
     display: flex;
     justify-content: center;
@@ -126,7 +130,7 @@ nav .logo img {
 }
 
 .card-front {
-    background-color: #fff;
+    background-color: #4CAF50;
 }
 
 .card-back {
