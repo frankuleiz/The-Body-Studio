@@ -98,8 +98,8 @@ nav .logo img {
 }
 
 .pricing-card {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     perspective: 1000px;
 }
 
@@ -143,11 +143,33 @@ nav .logo img {
     margin: 10px 0;
 }
 
-.card-front img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.card-front h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #FFFFFF;
 }
+
+.card-front p {
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+
+.pricing-button {
+	margin-top: auto;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.pricing-button:hover {
+	background-color: #333;
+	color: #FFFFFF;
+}
+
 
 .btn {
   background-color: #00FF00;
