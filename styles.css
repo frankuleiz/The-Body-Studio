@@ -138,7 +138,7 @@ nav .logo img {
 }
 
 .class-card {
-  width: 250px;
+  width: calc(20% - 20px);
   height: 450px;
   perspective: 1000px;
 }
@@ -180,8 +180,13 @@ nav .logo img {
 }
 
 .card-back {
-  background-color: #00FF00;
-  color: black;
+  background: linear-gradient(
+    to right,
+    #1E1E1E 0%,
+    #50e74b 51%,
+    #170D0D 94%
+  );
+  color: white;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -203,7 +208,7 @@ nav .logo img {
 
 /* SIGN UP */
 .signup-section {
-  padding: 50px 20px;
+  padding: 50px;
   background: linear-gradient(
     to bottom,
     #1E1E1E 0%,
@@ -399,6 +404,7 @@ nav .logo img {
 
 #bmi-output {
   margin-top: 20px;
-    font-size: 1em;
-    color: white;
+  font-size: 1em;
+  color: white;
+  font-style: italic;
 }
