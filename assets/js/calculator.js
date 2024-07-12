@@ -12,7 +12,7 @@ function calculateBMI() {
   let outputMessage = '';
 
   if (isNaN(bmi)) {
-      outputMessage = 'Please enter valid height and weight values!';
+      outputMessage = 'Please enter valid height and weight values ❌';
   } else if (bmi < 18.5) {
       outputMessage = `Your BMI is ${bmi.toFixed(2)} and you are underweight 😟`;
   } else if (bmi >= 18.5 && bmi < 24.9) {
