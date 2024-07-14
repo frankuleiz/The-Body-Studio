@@ -206,6 +206,98 @@ nav .logo img {
   font-size: 1em;
 }
 
+/* PRICING */
+.pricing-section {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(
+    to bottom,
+    #1E1E1E 0%,
+    #1F401E 51%,
+    #170D0D 94%
+  );
+}
+
+.pricing-section h2 {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+}
+
+.pricing-card {
+  background-color: #00FF00;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  height: 400px;
+  transition: transform 0.2s;
+}
+
+.pricing-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.pricing-card ul {
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.pricing-card ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.pricing-card .btn {
+  margin-top: 100px;
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.pricing-card .btn:hover {
+  background-color: white;
+  color:  black;
+}
+
+.pricing-card:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 /* SIGN UP */
 .signup-section {
   padding: 50px;
