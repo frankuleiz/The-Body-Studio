@@ -22,5 +22,15 @@ document.getElementById('signup-form').addEventListener('submit', function(event
   };
 
   /* SEND THE EMAIL USING Emailjs API */
-  
+  emailjs.send('service_neu58o9', 'template_zttqjst', templateParams)
+    .then(function(response) {
+      alert('SUCCESS!', response.status, response.text);
+    }, function(error) {
+      alert('FAILED...', error);
+    });
 });
+
+/* Initialize the emailjs function */
+(function(){
+  emailjs.init("Lo53YrgsZ7ciqie2S");
+})();
