@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   font-family: 'Arial', Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* styles.css */
@@ -20,12 +21,6 @@ body {
 :root {
   --primary-font-color: white;
   --primary-color: #45be43;
-  --container-bg-color: background: linear-gradient(
-    to right,
-    #1E1E1E 0%,
-    #1F401E 51%,
-    #170D0D 94%
-  );
 }
 
 /* NAVBAR */
@@ -237,6 +232,7 @@ nav .logo img {
     #1F401E 51%,
     #170D0D 94%
   );
+  height: 110vh;
 }
 
 .pricing-section h2 {
@@ -258,6 +254,7 @@ nav .logo img {
   border-radius: 10px;
   width: 250px;
   height: 400px;
+  cursor: pointer;
   transition: transform 0.2s;
 }
 
@@ -323,6 +320,62 @@ nav .logo img {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+/* ABOUT US */
+.about-us {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  padding: 50px 0;
+}
+
+.about-us h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%;
+  transition: transform 1s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide-text {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: rgba(0, 255, 0, 0.8);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.slide-text h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
 
 /* SIGN UP */
 .signup-section {
