@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const texts = ["INTENSE WORKOUT", "OTHER WORKOUT", "YET ANOTHER WORKOUT"];
+  const texts = ["INTENSE WORKOUT", "WORLD CLASS EQUIPMENTS", "QUALIFIED TRAINERS"];
   let currentIndex = 0;
   const textSlide = document.getElementById('text-slide');
   const images = document.querySelectorAll('.slide img');
