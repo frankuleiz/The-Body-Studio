@@ -2,7 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  font-family: 'Arial', Arial, Helvetica, sans-serif;
+   
   scroll-behavior: smooth;
 }
 
@@ -54,10 +54,22 @@ nav .logo img {
   font-size: 16px;
 }
 
+.nav-links a:hover {
+  color: #00cc00;
+  transition: 0.30s ease-in-out;
+}
+
 .nav-links .sign-up {
   color: #00FF00;
   font-weight: bold;
 }
+
+.nav-links .sign-up:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
 
 /* HERO SECTION */
 
@@ -94,7 +106,6 @@ nav .logo img {
   width: 100%;
   position: absolute;
   bottom: 50px;
-
 }
 
 .hero-bottom p {
@@ -110,6 +121,11 @@ nav .logo img {
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.2em;
+}
+
+.hero-bottom a:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -158,6 +174,10 @@ nav .logo img {
   width: 250px;
   height: 450px;
   perspective: 1000px;
+}
+
+.class-card:hover {
+  cursor: pointer;
 }
 
 .card-inner {
