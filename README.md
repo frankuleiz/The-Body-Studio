@@ -4,9 +4,11 @@
 
 
 **Project Overview**
+
 The Body Studio is a responsive gym website developed to provide users with an intuitive and engaging experience. This project aims to offer comprehensive information about our gym, including classes, pricing, and company details, while maintaining a visually appealing and user-friendly interface.
 
 **Project description**
+
 The Body Studio website is designed to provide users with essential information about our gym's offerings. Key features include:
   - Responsive design for seamless viewing across devices.
   - Interactive pricing cards with hover effects.
@@ -14,10 +16,12 @@ The Body Studio website is designed to provide users with essential information 
   - A planned user dashboard to track personal progress and payments.
 
 **Team members**
+
 - Francis Ngethe
 - Cynthia Mbesa
 
 **Architecture**
+
 The architecture of the project is a simple yet efficient structure:
 - HTML for the content and structure of the pages.
 - CSS for styling and layout.
