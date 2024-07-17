@@ -1,4 +1,7 @@
 **The Body Studio - Responsive Gym Website**
+![WhatsApp Image 2024-07-02 at 2 34 56 PM](https://github.com/user-attachments/assets/647b4a37-27ec-4534-a24f-61e48c782459)
+
+
 
 **Project Overview**
 The Body Studio is a responsive gym website developed to provide users with an intuitive and engaging experience. This project aims to offer comprehensive information about our gym, including classes, pricing, and company details, while maintaining a visually appealing and user-friendly interface.
