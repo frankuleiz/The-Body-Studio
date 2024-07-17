@@ -1,33 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/styles.css">
-  <title>The Body Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Body Studio</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <!-- ICON LIBRARY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
-  <section class="hero-section">
-    <header>
-        <div class="logo">
-          <img src="./assets/images/Body-studio logo.png" alt="">
-        </div>
-          <div class="navbar">
-            <a href="#home" class="nav-link">HOME</a>
-            <a href="#classes" class="nav-link">CLASSES</a>
-            <a href="#pricing" class="nav-link">PRICING</a>
-            <a href="#about us" class="nav-link">ABOUT US</a>
-            <a href="#sign up" class="nav-link">SIGN UP</a>
-          </div>
+    <header class="hero-section">
+        <nav>
+            <div class="logo">
+                <img src="./assets/images/Body-studio logo.png" alt="The Body Studio Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#classes-section">Classes</a></li>
+                <li><a href="#pricing-section">Pricing</a></li>
+                <li><a href="#about-us-section">About Us</a></li>
+                <li><a href="#signup-sec" class="sign-up">Sign Up</a></li>
+            </ul>
+        </nav>
+            <div class="hero-header">
+                <h1>BUILD YOUR PERFECT BODY</h1>
+            </div>
+            <div class="hero-bottom">
+                <p>Start your fitness journey today and build your ideal body</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
             </div>
     </header>
-  </section>
-  <section id="home">
-	  <div class="hero">
-		  <h1>Welcome to THE BODY STUDIO</h1>
-		  <p>Start your fitness journey today and build your ideal body</p>
-		  <button>Get Started</button>
-	</div>
-  </section>
+    <!-- CLASSES -->
+     <section class="classes-section" id="classes-section">
+        <h2>CLASSES</h2>
+        <div class="classes-container">
+            <div class="class-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./assets/images/spin-bike.png" alt="">
+                    </div>
+                    <div class="card-back">
+                        <h3>SPIN BIKE</h3>
+                        <p>Join our spin bike class for a high-intensity workout.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="class-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./assets/images/weight-lifting.png" alt="">
+                    </div>
+                    <div class="card-back">
+                        <h3>WEIGHT LIFTING</h3>
+                        <p>Improve your strength with our Weight Lifting classes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="class-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./assets/images/yoga-meditation.png" alt="">
+                                            </div>
+                    <div class="card-back">
+                        <h3>YOGA MEDITATION</h3>
+                        <p>Relax and unwind with our Yoga Meditation sessions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="class-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./assets/images/cardio-burn.png" alt="">
+                    </div>
+                    <div class="card-back">
+                        <h3>CARDIO BURN</h3>
+                        <p>Burn calories fast with our Cardio Burn classes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="class-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./assets/images/boxing-class.png" alt="">
+                    </div>
+                    <div class="card-back">
+                        <h3>BOXING CLASS</h3>
+                        <p>Get fit and learn self-defense with our Boxing Class</p>
+                    </div>
+                </div>
+            </div>
+            <div class="class-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="./assets/images/zumba-dance.png" alt="">
+                    </div>
+                    <div class="card-back">
+                        <h3>ZUMBA DANCE</h3>
+                        <p>Dance your way to fitness with our Zumba Dance classes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- PRICING -->
+      <section class="pricing-section" id="pricing-section">
+        <h2>PRICING</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>DAILY</h3>
+                <p>KES 500 / DAY</p>
+                <ul>
+                    <li>zero joining fee</li>
+                    <li>zero commitment fee</li>
+                    <li>includes all floor classes</li>
+                </ul>
+                <button class="btn">JOIN NOW &rarr;</button>
+            </div>
+            <div class="pricing-card">
+                <h3>MONTHLY</h3>
+                <p>KES 5000 / MONTH</p>
+                <ul>
+                    <li>zero joining fee</li>
+                    <li>zero commitment fee</li>
+                    <li>includes all floor classes</li>
+                </ul>
+                <button class="btn">JOIN NOW &rarr;</button>
+            </div>
+            <div class="pricing-card">
+                <h3>ANNUALLY</h3>
+                <p>KES 60000 / YEAR</p>
+                <ul>
+                    <li>zero joining fee</li>
+                    <li>zero commitment fee</li>
+                    <li>includes all floor classes</li>
+                </ul>
+                <button class="btn">JOIN NOW &rarr;</button>
+            </div>
+        </div>
+      </section>
+      <!-- ABOUT US -->
+       <section class="about-us" id="about-us-section">
+        <h2>ABOUT US</h2>
+        <div class="about-us-container">
+            <div class="about-card">
+                <h3 id="text-slide">INTENSE WORKOUT</h3>
+            </div>
+            <div class="slide">
+                <img src="./assets/images/intense-workout.jpg" alt="INTENSE WORKOUT">
+                <img src="./assets/images/world-class-equipment.jpg" alt="WORLD CLASS EQUIPMENTS">
+                <img src="./assets/images/qualified trainers.jpg" alt="QUALIFIED TRAINERS">
+    </div>
+            </div>
+        </div>
+       </section>
+
+
+     <!-- SIGN UP -->
+      <section class="signup-section" id="signup-sec">
+        <h2>JOIN OUR COMMUNITY</h2>
+        <div class="signup-container">
+            <div class="signup-image">
+                <img src="./assets/images/SIGN UP POSTER PHOTO.png" alt="sign up poster">
+            </div>
+            <div class="signup-form" id="signup-form">
+                <form action="sign up">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="First Name" id="first-name" placeholder="Enter First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text name="Last Name" id="last-name" placeholder="Enter Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="Email" id="email" placeholder="johndoe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" name="Phone" id="phone" placeholder="+254" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="class" name="class" required>
+                            <option value="" disabled selected>Class</option>
+                            <option value="Spin-Bike">Spin Bike</option>
+                            <option value="Weight-Lifting">Weight Lifting</option>
+                            <option value="Yoga-Meditation">Yoga Meditation</option>
+                            <option value="cardio-burn">Cardio Burn</option>
+                            <option value="boxing-class">Boxing Class</option>
+                            <option value="zumba-dance">Zumba Dance</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="plan" name="plan">
+                            <option value="" disabled selected>Plan</option>
+                            <option value="daily">Daily</option>
+                            <option value="monthly">Monthly</option>
+                            <option value="annually">Annually</option>
+                        </select>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit" class="btn signup-btn">SIGN UP</button>
+                        <button type="submit" class="btn login-btn">Login</button>
+                    </div>
+                    <div class="form-buttons">
+                        <!-- <button type="submit" class="btnn google-signup-btn"><i class="fa fa-google"></i>Sign up with Google</button> -->
+                        <!-- <button type="submit" class="btnn google-signup-btn"><i class="fa fa-google"></i>Login with Google</button> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section>
+
+      <!-- BMI CALCULATOR -->
+       <section class="bmi-section">
+        <h2>CALCULATE YOUR BMI</h2>
+        <div class="bmi-container">
+            <div class="bmi-image">
+                <img src="./assets/images/bmi calc photo.png" alt="">
+            </div>
+            <div class="bmi-form">
+                <h3>Calculate your BMI (Body Mass Index)</h3>
+                <form action="calculate" id="bmi-form">
+                    <div class="input-group">
+                        <input type="text" id="height" placeholder="Enter height in cm">
+                        <span>cm</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="kg" placeholder="Enter weight in kg">
+                        <span>kg</span>
+                    </div>
+                    <button type="button" onclick="calculateBMI()">Calculate &rarr;</button>
+                </form>
+                <div class="bmi-output" id="bmi-output"></div>
+            </div>
+        </div>
+       </section>
+       <!-- FOOTER -->
+        <footer class="footer-section">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a href="#">Cardio Burn</a></li>
+                        <li><a href="#">Spin Cycle</a></li>
+                        <li><a href="#">Boxing Class</a></li>
+                        <li><a href="#">Yoga Meditation</a></li>
+                        <li><a href="#">Zumba Dance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>PRICING</h3>
+                    <ul>
+                        <li><a href="#">Daily</a></li>
+                        <li><a href="#">Monthly</a></li>
+                        <li><a href="#">Yearly</a></li>
+                        <li><a href="#">Premium</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 All rights reserved</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- scripts -->
+        <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript" src="./assets/js/signup.js"></script>
+        <script src="./assets/js/calculator.js"></script>
+        <script src="./assets/js/slider.js"></script>
 </body>
 </html>
